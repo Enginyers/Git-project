@@ -1,0 +1,321 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+    background-color: #D8DBE2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.trvl-media.com/hotels/15000000/14840000/14835600/14835553/f8405bb9_z.jpg);
+    color: #F7DEC0; /* color del texto */
+  /*background-color: #000; /* color del fondo */
+ 
+  position: relative;
+  bottom: 0px;
+  background-size:100% 100%;
+  /*overflow-y:hidden; /*quitar scroll horizontal*/
+  /*opacity: 0.3;*/
+  margin:0px 0px 0px 0px;
+  width: 100%;
+  
+  }
+
+
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    margin: 0px;
+    padding: 40px;
+    width: 90%;
+  }
+
+  article{
+    width: 33%;
+    flex: 2;
+    overflow-y: auto;
+    padding: 0px 15px;
+  }
+
+  aside {
+    flex: 1;
+    overflow-y: auto;
+    background: #e7e9ee;
+    opacity: 0.9;
+  }
+
+span {
+  width: 100%;
+  /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO4J-ZaroErI4HbdK1QwZtIHih66T5cUGqjw&usqp=CAU);*/
+  background-color:rgba(241,235,227,0.9) ;
+  color: #000000 ;
+  }
+  
+
+  header a {
+    color:   #000000;
+  }
+
+  header  {
+    /*background: rgba(241,235,227,0.9);*/
+    height: 60px;
+    color: #000;
+    list-style-position:inside;
+    /*border-radius:20px; /* redondea la barra de navegacion */
+    Margin: 20px;
+  }
+
+ footer a {
+    color:   #fafafa;
+    
+  }
+
+  h3 {
+    color: #FFFFFF;
+    
+  }
+
+header li  {
+   font-size: 30px;
+}
+
+header ul  {
+  margin: 10px;
+  padding: 10px;
+  background: rgba(241,235,227,0.9);
+  border-radius: 20px;
+  list-style-position: inside;
+}
+
+
+header li img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+}
+
+div.menu {
+    margin: 40px;
+}
+
+  div.izquierdo{
+      /*position:relative;*/
+      /*background-color: green;*/
+      color: white;
+      margin: 20px;
+      padding: 20px;
+      width: 100px;
+      heigth: 105px;
+      float:right;
+      /*float:left;*/
+       }
+
+
+
+div.linea {
+  padding: 20px;
+}
+
+div.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    heigth: 800px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+       }
+
+
+div.sub-footer-centro {
+      /*background-color: green;*/
+      color: white;
+      margin: 10px;
+      padding:45px;
+      width: 100%; 
+      heigth:200px;
+      float:left;
+      background-repeat: no-repeat;
+      /*float:left;*/
+       }
+
+
+
+
+
+  div.main_page {
+    position: relative;
+    display: table;
+    /*width: 1000px;*/
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    /*background-color: #F5F6F7;*/
+    background-image: url(https://www.caracteristicas.co/wp-content/uploads/2018/12/veganismo-3-e1585012872721.jpg);
+    background-size: 100% 100%;
+  }
+
+
+  div.page_header span {
+    margin:  0px 0px 50px;
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+    border: 0px 0px 0px;
+  }
+
+  div.table_of_contents {
+    clear: left;
+    min-width: 200px;
+    margin: 3px 3px 3px 3px;
+    background-color: #FFFFFF;
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+    width: 100%;
+    margin: 4px 0px 0px 0px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    /*background-color: #FFFFFF;*/
+
+    text-align: left;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+    color: #000000;
+    font-size: 100%;
+     
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+    text-align: justify;
+     color: #FFFFFF;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_red {
+    background-color: rgba(241,235,227,0.9);
+
+
+  }
+  div.section_header_r {
+    background-color: #848321;
+ 
+
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+   
+
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.validator {
+  }
+
